@@ -7,8 +7,16 @@ import Hello from './component/Hello';
 function App() {
   return (
     <div className="App">
-     <Greet/>
-     <Welcome/>
+     <Greet name="bruce" heroName="Batman">
+     <button>Enter</button>
+     </Greet>
+     <Greet name="clark" heroName="SuperMan"/>
+     <Greet name="diana" heroName="Wonder Women"/>
+     <Welcome name="bruce" heroName="Batman">
+     <button>Enter</button>
+     </Welcome>
+     <Welcome name="clark" heroName="SuperMan"/>
+     <Welcome name="diana" heroName="Wonder Women"/>
      <Hello/>
     </div>
   );
