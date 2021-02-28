@@ -5,12 +5,14 @@ import Welcome from './component/Welcome';
 import Hello from './component/Hello';
 import Message from './component/Message';
 import Count from './component/Count';
+import Clock from './component/Clock';
 
 function App() {
   return (
     <div className="App">
-    <Count/>
-   {/* <Message/>
+    <Clock/>
+     {/*<Count/>
+   <Message/>
      <Greet name="bruce" heroName="Batman">
      <button>Enter</button>
      </Greet>
