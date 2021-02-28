@@ -3,11 +3,13 @@ import './App.css';
 import Greet from './component/Greet';
 import Welcome from './component/Welcome';
 import Hello from './component/Hello';
+import Message from './component/Message';
 
 function App() {
   return (
     <div className="App">
-     <Greet name="bruce" heroName="Batman">
+    <Message/>
+     {/*<Greet name="bruce" heroName="Batman">
      <button>Enter</button>
      </Greet>
      <Greet name="clark" heroName="SuperMan"/>
@@ -17,7 +19,7 @@ function App() {
      </Welcome>
      <Welcome name="clark" heroName="SuperMan"/>
      <Welcome name="diana" heroName="Wonder Women"/>
-     <Hello/>
+  <Hello/>*/}
     </div>
   );
 }
