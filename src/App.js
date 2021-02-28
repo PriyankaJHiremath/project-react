@@ -7,12 +7,14 @@ import Message from './component/Message';
 import Count from './component/Count';
 import Clock from './component/Clock';
 import Toggle from './component/Toggle';
+import LoggedInUser from './component/LoggedInUser';
 
 function App() {
   return (
     <div className="App">
-    <Toggle/>
-    {/*<Clock/>
+    <LoggedInUser isLoggedIn={false}/>
+    {/*<Toggle/>
+    <Clock/>
      <Count/>
    <Message/>
      <Greet name="bruce" heroName="Batman">
