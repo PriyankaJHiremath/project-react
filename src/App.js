@@ -6,12 +6,14 @@ import Hello from './component/Hello';
 import Message from './component/Message';
 import Count from './component/Count';
 import Clock from './component/Clock';
+import Toggle from './component/Toggle';
 
 function App() {
   return (
     <div className="App">
-    <Clock/>
-     {/*<Count/>
+    <Toggle/>
+    {/*<Clock/>
+     <Count/>
    <Message/>
      <Greet name="bruce" heroName="Batman">
      <button>Enter</button>
